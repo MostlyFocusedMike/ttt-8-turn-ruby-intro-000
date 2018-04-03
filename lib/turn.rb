@@ -20,7 +20,7 @@ def position_taken?(board, index)
 end
 
 def display_board(b) # b stands for board
-  puts [0,3,6].map {|i| " #{b[i]} | #{b[i+1]} | #{b[i+2]} "}.join("\n#{'-'*11}")
+  puts [0,3,6].map {|i| " #{b[i]} | #{b[i+1]} | #{b[i+2]} \n"}.join("#{'-'*11}\n")
 end
 
 def input_to_index(input)
